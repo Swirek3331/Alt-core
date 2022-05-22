@@ -19,7 +19,7 @@ public class AltanicBlocks
     {
         //region power
 
-        erekirSolarPanel = new SolarGenerator("Solar Panel"){{
+        erekirSolarPanel = new SolarGenerator("erekir-solar-panel"){{
             requirements(Category.power, with(Items.graphite, 50, Items.silicon, 25, Items.beryllium, 20));
             size = 2;
             powerProduction = 2f;
