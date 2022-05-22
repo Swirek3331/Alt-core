@@ -8,9 +8,9 @@ import mindustry.ui.dialogs.*;
 
 import altanic.content.*;
 
-public class altanic extends Mod
+public class Altanic extends Mod
 {
-        public altanic()
+        public Altanic()
         {
             Log.info("0011.");
 
