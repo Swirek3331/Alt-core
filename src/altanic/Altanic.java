@@ -33,4 +33,9 @@ public class Altanic extends Mod
             AltanicBlocks.load();
         }
 }
+<<<<<<< HEAD:src/altanic/altanic.java
 //ściągniete od binary0011
+=======
+//nie wiem co tu się odjaniepawla, ale będzię dobrze
+//ściągniete od binary
+>>>>>>> c8316ececcc5d982f1b5f13ba009afb41572b18a:src/altanic/Altanic.java
