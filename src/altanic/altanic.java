@@ -12,7 +12,7 @@ public class Altanic extends Mod
 {
         public Altanic()
         {
-            Log.info("0011.");
+            Log.info("test.");
 
             //listen for game load event
             Events.on(ClientLoadEvent.class, e -> {
@@ -34,3 +34,4 @@ public class Altanic extends Mod
         }
 }
 //nie wiem co tu się odjaniepawla, ale będzię dobrze
+//ściągniete od binary
