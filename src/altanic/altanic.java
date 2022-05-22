@@ -12,15 +12,15 @@ public class Altanic extends Mod
 {
         public Altanic()
         {
-            Log.info("test.");
+            Log.info("Altania");
 
             //listen for game load event
             Events.on(ClientLoadEvent.class, e -> {
             //show dialog upon startup
                     Time.runTask(10f, () -> {
-            BaseDialog dialog = new BaseDialog("test.");
-            dialog.cont.add("test.").row();
-            dialog.cont.button("Chyba działa", dialog::hide).size(100f, 50f);
+            BaseDialog dialog = new BaseDialog("Altania");
+            dialog.cont.add("Altania").row();
+            dialog.cont.button("Guzik", dialog::hide).size(100f, 50f);
             dialog.show();
                  });
             });
@@ -33,5 +33,4 @@ public class Altanic extends Mod
             AltanicBlocks.load();
         }
 }
-//nie wiem co tu się odjaniepawla, ale będzię dobrze
-//ściągniete od binary
+//ściągniete od binary0011

@@ -23,6 +23,7 @@ public class AltanicBlocks
             requirements(Category.power, with(Items.graphite, 50, Items.silicon, 25, Items.beryllium, 20));
             size = 2;
             powerProduction = 2f;
+            health = 400;
         }};
     }
 }
