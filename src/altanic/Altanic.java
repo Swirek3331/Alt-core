@@ -1,10 +1,10 @@
 package altanic;
 
-import arc.*;
+/* chyba nie jest potrzbne import arc.*;
 import arc.util.*;
-import mindustry.game.EventType.*;
+import mindustry.game.EventType.*;*/
 import mindustry.mod.*;
-import mindustry.ui.dialogs.*;
+//import mindustry.ui.dialogs.*;
 
 import altanic.content.*;
 

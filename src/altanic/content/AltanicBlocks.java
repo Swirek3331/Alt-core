@@ -22,7 +22,7 @@ public class AltanicBlocks
         erekirSolarPanel = new SolarGenerator("erekir-solar-panel"){{
             requirements(Category.power, with(Items.graphite, 50, Items.silicon, 25, Items.beryllium, 20));
             size = 2;
-            powerProduction = 2f;
+            powerProduction = 1.75f;
             health = 400;
         }};
     }
