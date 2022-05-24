@@ -1,0 +1,1 @@
+//a jakby tak nie robić tego?

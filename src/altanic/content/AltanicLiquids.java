@@ -3,7 +3,7 @@ package altanic.content;
 import arc.graphics.Color;
 import mindustry.type.*;
 
-public class Liquids
+public class AltanicLiquids
 {
     public static Liquid
     //region alcochols

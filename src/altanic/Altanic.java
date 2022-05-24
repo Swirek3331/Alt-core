@@ -20,6 +20,8 @@ public class Altanic extends Mod
         public void loadContent()
         {
             AltanicBlocks.load();
+            AltanicLiquids.load();
+            //AltanicItems.load();
         }
 }
 
