@@ -66,7 +66,7 @@ public class AltanicErekirTechTree
         nodeProduce(content, Seq.with(), () -> {});
     }*/
 
-    public void load()
+    public static void load()
     {   
         //liquids
 
