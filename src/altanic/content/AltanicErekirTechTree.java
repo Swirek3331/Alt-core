@@ -73,8 +73,10 @@ public class AltanicErekirTechTree
             //acids
 
             extendNode(Liquids.hydrogen, () -> {
-                node(AltanicLiquids.sulfuricAcid, () -> {
-                    node(AltanicLiquids.nitricAcid);
+                node(AltanicLiquids.hydrogenChloride, () -> {
+                    node(AltanicLiquids.sulfuricAcid, () -> {
+                        node(AltanicLiquids.nitricAcid);
+                    });
                 });
             });
         //blocks
