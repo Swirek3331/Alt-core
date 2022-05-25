@@ -18,5 +18,6 @@ public class Altanic extends Mod
         AltanicBlocks.load();
         AltanicLiquids.load();
         AltanicErekirTechTree.load();
+        AltanicSerpuloTechTree.load();
     }
 }

@@ -7,7 +7,7 @@ import mindustry.ctype.UnlockableContent;
 import mindustry.game.Objectives.*;
 import mindustry.type.ItemStack;
 
-public class AltanicErekirTechTree
+public class AltanicSerpuloTechTree
 {
     static TechTree.TechNode context = null;
     //zaczerpniętę od dobrodzieja 12three7
@@ -67,26 +67,19 @@ public class AltanicErekirTechTree
     }*/
 
     public static void load()
-    {   
+    {
         //liquids
-            
-            //acids
 
-            extendNode(Liquids.hydrogen, () -> {
-                node(AltanicLiquids.sulfuricAcid, () -> {
-                    node(AltanicLiquids.nitricAcid);
-                });
-            });
-        //blocks
-        
-            //power
+            //alcohols
 
-                extendNode(Blocks.beamNode, () -> {
-                    node(AltanicBlocks.erekirSolarPanel);
+                extendNode(Liquids.water, () -> {
+                        node(AltanicLiquids.methanol, () -> {
+                        node(AltanicLiquids.ethanol);
+                    });
                 });
 
             //endregion
-        
-        //endregion
+
+        //endregion        
     }
 }
