@@ -31,74 +31,72 @@ public class AltanicLiquids
         //alcochols
 
             methanol = new Liquid("methanol", Color.valueOf("ffffff"))
-            {{
-                heatCapacity = 0.4f;
-                boilPoint = Liquids.water.boilPoint * 0.73f;
-                flammability = 0.6f;
+            {{  
+                coolant = false;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             ethanol = new Liquid("ethanol", Color.valueOf("ffffff"))
-            {{
-                heatCapacity = 0.4f;
-                flammability = 0.6f;
-                boilPoint = Liquids.water.boilPoint * 0.7f;
+            {{  
+                coolant = false;
                 gasColor = Color.valueOf("ffffff");
             }};
         
         //acids
             
             sulfuricAcid = new Liquid("sulfuric-acid", Color.valueOf("bee610"))
-            {{
-                boilPoint = Liquids.water.boilPoint * 3.1f;
+            {{  
+                coolant = false;
                 gasColor = Color.valueOf("bee610");
-                //jednka nie będzię statusu żrący;
             }};
 
             nitricAcid = new Liquid("nitric-acid", Color.valueOf("bee610"))
             {{  
-                flammability = 0.2f;
+                coolant = false;
                 boilPoint = Liquids.water.boilPoint * 0.83f;
-                gasColor = Color.valueOf("bee610");
             }};
 
             hydrogenChloride = new Liquid("hydrogen-chloride", Color.valueOf("ffffff"))
-            {{
-                boilPoint = Liquids.water.boilPoint * -0.85f;
-                temperature = 0.3f;
-                heatCapacity = 0.35f;
+            {{  
+                coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
         //gases
             
             oxygen = new Liquid("oxygen", Color.valueOf("ffffff"))
-            {{
+            {{  
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             deuterium = new Liquid("deuterium", Color.valueOf("ffffff"))
-            {{
+            {{  
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             tritium = new Liquid("tritium", Color.valueOf("ffffff"))
-            {{
+            {{  
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             hellium = new Liquid("hellium", Color.valueOf("ffffff"))
-            {{
+            {{  
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             helliumThree = new Liquid("hellium-three", Color.valueOf("ffffff"))
             {{
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             steam = new Liquid("steam", Color.valueOf("ffffff"))
             {{
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
@@ -120,12 +118,14 @@ public class AltanicLiquids
             }};
 
             naturalGas = new Liquid("natural-gas", Color.valueOf("ffffff"))
-            {{
+            {{  
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             petroleumGas = new Liquid("petroleum-gas", Color.valueOf("ffffff"))
-            {{
+            {{  
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
@@ -136,6 +136,7 @@ public class AltanicLiquids
 
             plantGas = new Liquid("plant-gas", Color.valueOf("ffffff"))
             {{
+                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
@@ -147,28 +148,33 @@ public class AltanicLiquids
 
             liquidNitrogen = new Liquid("liquid-nitrogen", Color.valueOf("ffffff"))
             {{
+                coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             liquidHelliumm = new Liquid("liquid-hellium", Color.valueOf("ffffff"))
             {{
+                coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             lubricant = new Liquid("lubricant", Color.valueOf("ffffff"))
             {{
+                coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             coil = new Liquid("coil", Color.valueOf("ffffff"))
-            {{
+            {{  
+                coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
         //other
 
             lava = new Liquid("lava", Color.valueOf("ffffff"))
-            {{
+            {{  
+                coolant = false;
                 gasColor = Color.valueOf("ffffff");
             }};
     }
