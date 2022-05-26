@@ -17,7 +17,7 @@ public class AltanicLiquids
     oxygen, deuterium, tritium, hellium, helliumThree, steam,
 
     //region oils aka fuels
-    lightOil, heavyOil, refinedFuel, gas, plantOil, plantGas, biofuel,
+    lightOil, heavyOil, refinedFuel, naturalGas, petroleumGas, plantOil, plantGas, biofuel,
 
     //region coolants
     liquidNitrogen, liquidHelliumm, lubricant, coil,
@@ -28,7 +28,7 @@ public class AltanicLiquids
     public static void load()
     {
 
-        //region alcochols
+        //alcochols
 
             methanol = new Liquid("methanol", Color.valueOf("ffffff"))
             {{
@@ -46,9 +46,7 @@ public class AltanicLiquids
                 gasColor = Color.valueOf("ffffff");
             }};
         
-        //endregion
-
-        //region acids
+        //acids
             
             sulfuricAcid = new Liquid("sulfuric-acid", Color.valueOf("bee610"))
             {{
@@ -72,6 +70,106 @@ public class AltanicLiquids
                 gasColor = Color.valueOf("ffffff");
             }};
 
-        //endregion
+        //gases
+            
+            oxygen = new Liquid("oxygen", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            deuterium = new Liquid("deuterium", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            tritium = new Liquid("tritium", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            hellium = new Liquid("hellium", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            helliumThree = new Liquid("hellium-three", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            steam = new Liquid("steam", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+        //fuels
+
+            lightOil = new Liquid("light-oil", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            heavyOil = new Liquid("heavy-oil", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            refinedFuel = new Liquid("refined-fuel", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            naturalGas = new Liquid("natural-gas", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            petroleumGas = new Liquid("petroleum-gas", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            plantOil = new Liquid("plant-oil", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            plantGas = new Liquid("plant-gas", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            biofuel = new Liquid("biofuel", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+        //coolants
+
+            liquidNitrogen = new Liquid("liquid-nitrogen", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            liquidHelliumm = new Liquid("liquid-hellium", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            lubricant = new Liquid("lubricant", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            coil = new Liquid("coil", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+        //other
+
+            lava = new Liquid("lava", Color.valueOf("ffffff"))
+            {{
+                gasColor = Color.valueOf("ffffff");
+            }};
     }
 }
