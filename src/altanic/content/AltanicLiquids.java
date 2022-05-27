@@ -95,7 +95,8 @@ public class AltanicLiquids
             }};
 
             steam = new Liquid("steam", Color.valueOf("ffffff"))
-            {{
+            {{  
+                alwaysUnlocked = true;
                 gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};

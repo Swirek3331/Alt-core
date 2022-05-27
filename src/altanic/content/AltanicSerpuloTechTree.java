@@ -109,6 +109,7 @@ public class AltanicSerpuloTechTree
                         });
                     });
                     node(AltanicLiquids.oxygen);
+                    node(AltanicLiquids.steam);
                 });
         //endregion        
     }
