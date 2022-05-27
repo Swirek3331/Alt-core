@@ -100,6 +100,7 @@ public class AltanicLiquids
                 gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
+            //tak, wiem czym jest wirówka gazowa, wiem czym są yellowcake i UF6
 
         //fuels
 
