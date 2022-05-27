@@ -34,9 +34,9 @@ public class AltanicItems
 
     //region other
 
-    uranium235, uranium238, plutonium, nuclearWaste;
+    uraniumOre, fissileUranium, uranium, plutonium, nuclearWaste;
 
-    static void load()
+    public static void load()
     {   
         //region fuels
 
@@ -107,12 +107,17 @@ public class AltanicItems
 
         //region other
 
-            uranium235 = new Item("uranium-235", Color.valueOf("ffffff"))
+            uraniumOre = new Item("uranium-ore", Color.valueOf("ffffff"))
             {{
 
             }};
 
-            uranium238 = new Item("uranium-238", Color.valueOf("ffffff"))
+            fissileUranium = new Item("fissile-uranium-235", Color.valueOf("ffffff"))
+            {{
+
+            }};
+
+            uranium = new Item("uranium", Color.valueOf("ffffff"))
             {{
 
             }};

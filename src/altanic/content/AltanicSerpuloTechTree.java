@@ -7,6 +7,7 @@ import mindustry.ctype.UnlockableContent;
 import mindustry.game.Objectives.*;
 import mindustry.type.ItemStack;
 
+import altanic.content.*;
 public class AltanicSerpuloTechTree
 {
     static TechTree.TechNode context = null;
@@ -70,16 +71,45 @@ public class AltanicSerpuloTechTree
     {
         //liquids
 
-            //alcohols
+            //alcohols and biofuels
 
                 extendNode(Liquids.water, () -> {
-                        node(AltanicLiquids.methanol, () -> {
-                        node(AltanicLiquids.ethanol);
+                    node(AltanicLiquids.methanol, () -> {
+                        node(AltanicLiquids.ethanol, () -> {
+                            node(AltanicLiquids.plantOil, () -> {
+                                node(AltanicLiquids.biofuel);
+                                node(AltanicLiquids.bioGas);
+                            });
+                        });
                     });
                 });
 
-            //endregion
+            //fuels
 
+                extendNode(Liquids.oil, () -> {
+                    node(AltanicLiquids.lightOil, () -> {
+                        node(AltanicLiquids.refinedFuel);
+                    });
+                    node(AltanicLiquids.heavyOil, () -> {
+                        node(AltanicLiquids.lubricant);
+                    });
+                    node(AltanicLiquids.petroleumGas, () -> {
+                        node(AltanicLiquids.naturalGas);
+                    });
+                });
+            
+            //gases
+
+                extendNode(Liquids.water, () -> {
+                    node(Liquids.hydrogen, () -> {
+                        node(AltanicLiquids.deuterium);
+                        node(AltanicLiquids.tritium);
+                        node(AltanicLiquids.hellium, () -> {
+                            node(AltanicLiquids.helliumThree);
+                        });
+                    });
+                    node(AltanicLiquids.oxygen);
+                });
         //endregion        
     }
 }

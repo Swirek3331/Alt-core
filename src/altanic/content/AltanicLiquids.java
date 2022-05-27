@@ -17,7 +17,7 @@ public class AltanicLiquids
     oxygen, deuterium, tritium, hellium, helliumThree, steam,
 
     //region oils aka fuels
-    lightOil, heavyOil, refinedFuel, naturalGas, petroleumGas, plantOil, plantGas, biofuel,
+    lightOil, heavyOil, refinedFuel, naturalGas, petroleumGas, plantOil, bioGas, biofuel,
 
     //region coolants
     liquidNitrogen, liquidHelliumm, lubricant, coil,
@@ -134,7 +134,7 @@ public class AltanicLiquids
                 gasColor = Color.valueOf("ffffff");
             }};
 
-            plantGas = new Liquid("plant-gas", Color.valueOf("ffffff"))
+            bioGas = new Liquid("bio-gas", Color.valueOf("ffffff"))
             {{
                 gas = true;
                 gasColor = Color.valueOf("ffffff");
