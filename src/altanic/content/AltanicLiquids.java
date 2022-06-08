@@ -8,10 +8,10 @@ public class AltanicLiquids
 {
     public static Liquid
     //region alcochols
-    methanol, ethanol,
+    methanol, ethanol, glycerol,
 
     //region acids
-    sulfuricAcid, nitricAcid, hydrogenChloride,
+    sulfuricAcid, nitricAcid, hydrogenChloride, fattyAcids,
 
     //region gases
     oxygen, deuterium, tritium, hellium, helliumThree, steam,
@@ -23,7 +23,7 @@ public class AltanicLiquids
     liquidNitrogen, liquidHelliumm, lubricant, coil,
 
     //region other
-    lava;
+    lava, nitroglycerin;
 
     public static void load()
     {
@@ -37,6 +37,12 @@ public class AltanicLiquids
             }};
 
             ethanol = new Liquid("ethanol", Color.valueOf("ffffff"))
+            {{  
+                coolant = false;
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            glycerol = new Liquid("glycerol", Color.valueOf("ffffff"))
             {{  
                 coolant = false;
                 gasColor = Color.valueOf("ffffff");
@@ -59,6 +65,12 @@ public class AltanicLiquids
             hydrogenChloride = new Liquid("hydrogen-chloride", Color.valueOf("ffffff"))
             {{  
                 coolant = true;
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            fattyAcids = new Liquid("fatty-acids", Color.valueOf("ffffff"))
+            {{  
+                coolant = false;
                 gasColor = Color.valueOf("ffffff");
             }};
 
@@ -175,6 +187,12 @@ public class AltanicLiquids
         //other
 
             lava = new Liquid("lava", Color.valueOf("ffffff"))
+            {{  
+                coolant = false;
+                gasColor = Color.valueOf("ffffff");
+            }};
+
+            nitroglycerin = new Liquid("nitroglycerin", Color.valueOf("ffffff"))
             {{  
                 coolant = false;
                 gasColor = Color.valueOf("ffffff");

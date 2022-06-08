@@ -7,7 +7,6 @@ import mindustry.ctype.UnlockableContent;
 import mindustry.game.Objectives.*;
 import mindustry.type.ItemStack;
 
-import altanic.content.*;
 public class AltanicSerpuloTechTree
 {
     static TechTree.TechNode context = null;
@@ -71,18 +70,14 @@ public class AltanicSerpuloTechTree
     {
         //liquids
 
-            //alcohols and biofuels
+            //alcohols
 
                 extendNode(Liquids.water, () -> {
                     node(AltanicLiquids.methanol, () -> {
-                        node(AltanicLiquids.ethanol, () -> {
-                            node(AltanicLiquids.plantOil, () -> {
-                                node(AltanicLiquids.biofuel);
-                                node(AltanicLiquids.bioGas);
-                            });
-                        });
+                        node(AltanicLiquids.ethanol);
                     });
                 });
+                
 
             //fuels
 
@@ -95,6 +90,15 @@ public class AltanicSerpuloTechTree
                     });
                     node(AltanicLiquids.petroleumGas, () -> {
                         node(AltanicLiquids.naturalGas);
+                    });
+                });
+                extendNode(AltanicLiquids.refinedFuel, () -> {
+                    node(AltanicLiquids.plantOil, () -> {
+                        node(AltanicLiquids.bioGas);
+                        node(AltanicLiquids.glycerol, () -> {
+                            node(AltanicLiquids.nitroglycerin);
+                        });
+                        node(AltanicLiquids.fattyAcid);
                     });
                 });
             
