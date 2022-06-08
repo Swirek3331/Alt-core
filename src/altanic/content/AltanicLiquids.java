@@ -11,7 +11,7 @@ public class AltanicLiquids
     methanol, ethanol, glycerol,
 
     //region acids
-    sulfuricAcid, nitricAcid, hydrogenChloride, fattyAcids,
+    sulfuricAcid, nitricAcid, hydrogenChloride, fattyAcid,
 
     //region gases
     oxygen, deuterium, tritium, hellium, helliumThree, steam,
@@ -68,7 +68,7 @@ public class AltanicLiquids
                 gasColor = Color.valueOf("ffffff");
             }};
 
-            fattyAcids = new Liquid("fatty-acids", Color.valueOf("ffffff"))
+            fattyAcid = new Liquid("fatty-acids", Color.valueOf("ffffff"))
             {{  
                 coolant = false;
                 gasColor = Color.valueOf("ffffff");
