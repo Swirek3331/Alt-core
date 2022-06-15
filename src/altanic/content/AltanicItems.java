@@ -22,7 +22,7 @@ public class AltanicItems
 
     //region compounds
 
-    cryoCompound, oilCompound, meltCompound, wetCompound, nukeCompound,
+    cryoCompound, oilCompound, meltyCompound, wettyCompound,
 
     //region parts
 
@@ -34,7 +34,7 @@ public class AltanicItems
 
     //region other
 
-    uraniumOre, fissileUranium, uranium, plutonium, nuclearWaste;
+    uraniumOre, fissileUranium, notFissileUranium, plutonium, moxFuel;
 
     public static void load()
     {   
@@ -86,17 +86,12 @@ public class AltanicItems
 
             }};
 
-            meltCompound = new Item("melt-compound", Color.valueOf("ffffff"))
+            meltyCompound = new Item("melty-compound", Color.valueOf("ffffff"))
             {{
 
             }};
 
-            wetCompound = new Item("wet-compound", Color.valueOf("ffffff"))
-            {{
-
-            }};
-
-            nukeCompound = new Item("nuke-compound", Color.valueOf("ffffff"))
+            wettyCompound = new Item("wetty-compound", Color.valueOf("ffffff"))
             {{
 
             }};
@@ -112,12 +107,12 @@ public class AltanicItems
 
             }};
 
-            fissileUranium = new Item("fissile-uranium-235", Color.valueOf("ffffff"))
+            fissileUranium = new Item("uranium-235", Color.valueOf("ffffff"))
             {{
 
             }};
 
-            uranium = new Item("uranium", Color.valueOf("ffffff"))
+            notFissileUranium = new Item("uranium-238", Color.valueOf("ffffff"))
             {{
 
             }};
@@ -127,7 +122,7 @@ public class AltanicItems
 
             }};
 
-            nuclearWaste = new Item("nuclear-waste", Color.valueOf("ffffff"))
+            moxFuel = new Item("MOX-fuel", Color.valueOf("ffffff"))
             {{
 
             }};

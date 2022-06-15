@@ -68,7 +68,7 @@ public class AltanicLiquids
                 gasColor = Color.valueOf("ffffff");
             }};
 
-            fattyAcid = new Liquid("fatty-acids", Color.valueOf("ffffff"))
+            fattyAcid = new Liquid("fatty-acids", Color.valueOf("0f0f00"))
             {{  
                 coolant = false;
                 gasColor = Color.valueOf("ffffff");
@@ -82,13 +82,13 @@ public class AltanicLiquids
                 gasColor = Color.valueOf("ffffff");
             }};
 
-            deuterium = new Liquid("deuterium", Color.valueOf("ffffff"))
+            deuterium = new Liquid("deuterium", Color.valueOf("0000ff"))
             {{  
                 gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
-            tritium = new Liquid("tritium", Color.valueOf("ffffff"))
+            tritium = new Liquid("tritium", Color.valueOf("ff00ff"))
             {{  
                 gas = true;
                 gasColor = Color.valueOf("ffffff");
@@ -172,13 +172,13 @@ public class AltanicLiquids
                 gasColor = Color.valueOf("ffffff");
             }};
 
-            lubricant = new Liquid("lubricant", Color.valueOf("ffffff"))
+            lubricant = new Liquid("lubricant", Color.valueOf("00ff00"))
             {{
                 coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
-            coil = new Liquid("coil", Color.valueOf("ffffff"))
+            coil = new Liquid("coil", Color.valueOf("00ffff"))
             {{  
                 coolant = true;
                 gasColor = Color.valueOf("ffffff");
@@ -186,7 +186,7 @@ public class AltanicLiquids
 
         //other
 
-            lava = new Liquid("lava", Color.valueOf("ffffff"))
+            lava = new Liquid("lava", Color.valueOf("ff0000"))
             {{  
                 coolant = false;
                 gasColor = Color.valueOf("ffffff");
