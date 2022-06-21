@@ -12,7 +12,6 @@ public class Altanic extends Mod
     }
         
     @Override
-
     public void loadContent()
     {
         AltanicBlocks.load();

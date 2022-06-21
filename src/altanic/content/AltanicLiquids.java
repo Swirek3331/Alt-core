@@ -20,7 +20,7 @@ public class AltanicLiquids
     lightOil, heavyOil, refinedFuel, naturalGas, petroleumGas, plantOil, bioGas, biofuel,
 
     //region coolants
-    liquidNitrogen, liquidHelliumm, lubricant, coil,
+    liquidNitrogen, liquidHelliumm, lubricant,
 
     //region other
     lava, nitroglycerin;
@@ -112,7 +112,6 @@ public class AltanicLiquids
                 gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
-            //tak, wiem czym jest wirówka gazowa, wiem czym są yellowcake i UF6
 
         //fuels
 
@@ -148,7 +147,7 @@ public class AltanicLiquids
                 gasColor = Color.valueOf("ffffff");
             }};
 
-            bioGas = new Liquid("bio-gas", Color.valueOf("ffffff"))
+            bioGas = new Liquid("biogas", Color.valueOf("ffffff"))
             {{
                 gas = true;
                 gasColor = Color.valueOf("ffffff");
@@ -158,6 +157,7 @@ public class AltanicLiquids
             {{
                 gasColor = Color.valueOf("ffffff");
             }};
+
         //coolants
 
             liquidNitrogen = new Liquid("liquid-nitrogen", Color.valueOf("ffffff"))
@@ -168,18 +168,6 @@ public class AltanicLiquids
 
             liquidHelliumm = new Liquid("liquid-hellium", Color.valueOf("ffffff"))
             {{
-                coolant = true;
-                gasColor = Color.valueOf("ffffff");
-            }};
-
-            lubricant = new Liquid("lubricant", Color.valueOf("00ff00"))
-            {{
-                coolant = true;
-                gasColor = Color.valueOf("ffffff");
-            }};
-
-            coil = new Liquid("coil", Color.valueOf("00ffff"))
-            {{  
                 coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
