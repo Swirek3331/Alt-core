@@ -32,6 +32,10 @@ public class AltanicItems
 
     //zobaczymy
 
+    //organic
+
+    biomass, canola, corn, leaf, plank, sugarBeet, sugarCane, wood,
+
     //region other
 
     uraniumOre, fissileUranium, notFissileUranium, plutonium, moxFuel;
