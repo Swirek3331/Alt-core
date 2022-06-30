@@ -37,4 +37,8 @@ Komponent jakiś, spala się, rozkłada, rozczepia, łaczy, ale ważne, że spra
 ##### bezpośrednio
 Powyższe procesy produkują ciepło i do wymiennika ciepła.
 #### Para wodna ciąg dalszy
-Do rur (xd) pakujemy, potem do turbiny i wirniki się kręcą, kręcą, kręcą jak pierdolniętę. Ich siła, energia mechaniczna, ruch wykorzystywany jest do produkcji energi w prądni (tą będzię wszystko w turbinie). Elektrony jadą, płyną chodzą jak pojebane. I jest prund, kurwa to pięknę, tylko jebane lewaki tego nie chcą.
+Do rur (xd) pakujemy, potem do turbiny i wirniki się kręcą, kręcą, kręcą jak pierdolniętę. Ich siła, energia mechaniczna, ruch wykorzystywany jest do produkcji energi w prądnicy (tą będzię wszystko w turbinie). Elektrony jadą, płyną chodzą jak pojebane. I jest prund, kurwa to pięknę, tylko jebane lewaki tego nie chcą.
+### Paliwa
+UUUUU węglowodory.
+#### Olej lekki
+Może podziele na benzynę i naftę i z tego paliwo przetworzone
