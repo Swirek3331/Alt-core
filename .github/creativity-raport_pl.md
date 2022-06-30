@@ -57,3 +57,14 @@ To już metan ().
 #### Biopaliwo
 Pisałem przy alkocholach.
 ### Chłodziwo
+No co tu pisać?
+#### Ciekły azot
+Coś co Omnom zrobił wcześniej. Najpwniej "chłodziwo" do reaktora fuzyjnego.
+#### Ciekły hel
+Ewentualny zastępca azotu?
+### Inne
+#### Lawa
+co tu pisać?
+#### Nitrogliceryna
+Też od Omnoma, robi bum. Z glicerolu i kwasu azotowego, proporcje 1 : 3.
+## Przedmioty
