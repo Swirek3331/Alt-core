@@ -31,78 +31,66 @@ public class AltanicLiquids
         //alcochols
 
             methanol = new Liquid("methanol", Color.valueOf("ffffff"))
-            {{  
-                coolant = false;
+            {{
                 gasColor = Color.valueOf("ffffff");
             }};
 
             ethanol = new Liquid("ethanol", Color.valueOf("ffffff"))
-            {{  
-                coolant = false;
+            {{
                 gasColor = Color.valueOf("ffffff");
             }};
 
             glycerol = new Liquid("glycerol", Color.valueOf("ffffff"))
-            {{  
-                coolant = false;
+            {{
                 gasColor = Color.valueOf("ffffff");
             }};
         
         //acids
             
             sulfuricAcid = new Liquid("sulfuric-acid", Color.valueOf("bee610"))
-            {{  
-                coolant = false;
+            {{
                 gasColor = Color.valueOf("bee610");
             }};
 
             nitricAcid = new Liquid("nitric-acid", Color.valueOf("bee610"))
             {{  
-                coolant = false;
                 boilPoint = Liquids.water.boilPoint * 0.83f;
             }};
 
             hydrogenChloride = new Liquid("hydrogen-chloride", Color.valueOf("ffffff"))
             {{  
-                coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             fattyAcid = new Liquid("fatty-acids", Color.valueOf("0f0f00"))
             {{  
-                coolant = false;
                 gasColor = Color.valueOf("ffffff");
             }};
 
         //gases
             
             oxygen = new Liquid("oxygen", Color.valueOf("ffffff"))
-            {{  
-                gas = true;
+            {{
                 gasColor = Color.valueOf("ffffff");
             }};
 
             deuterium = new Liquid("deuterium", Color.valueOf("0000ff"))
-            {{  
-                gas = true;
+            {{
                 gasColor = Color.valueOf("ffffff");
             }};
 
             tritium = new Liquid("tritium", Color.valueOf("ff00ff"))
-            {{  
-                gas = true;
+            {{
                 gasColor = Color.valueOf("ffffff");
             }};
 
             hellium = new Liquid("hellium", Color.valueOf("ffffff"))
-            {{  
-                gas = true;
+            {{
                 gasColor = Color.valueOf("ffffff");
             }};
 
             helliumThree = new Liquid("hellium-three", Color.valueOf("ffffff"))
             {{
-                gas = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
@@ -162,13 +150,11 @@ public class AltanicLiquids
 
             liquidNitrogen = new Liquid("liquid-nitrogen", Color.valueOf("ffffff"))
             {{
-                coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             liquidHelliumm = new Liquid("liquid-hellium", Color.valueOf("ffffff"))
             {{
-                coolant = true;
                 gasColor = Color.valueOf("ffffff");
             }};
 
@@ -176,13 +162,11 @@ public class AltanicLiquids
 
             lava = new Liquid("lava", Color.valueOf("ff0000"))
             {{  
-                coolant = false;
                 gasColor = Color.valueOf("ffffff");
             }};
 
             nitroglycerin = new Liquid("nitroglycerin", Color.valueOf("ffffff"))
             {{  
-                coolant = false;
                 gasColor = Color.valueOf("ffffff");
             }};
     }
