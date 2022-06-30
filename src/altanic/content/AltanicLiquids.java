@@ -71,34 +71,33 @@ public class AltanicLiquids
             
             oxygen = new Liquid("oxygen", Color.valueOf("ffffff"))
             {{
-
+                gas = true;
             }};
 
             deuterium = new Liquid("deuterium", Color.valueOf("0000ff"))
             {{
-
+                gas = true;
             }};
 
             tritium = new Liquid("tritium", Color.valueOf("ff00ff"))
             {{
-
+                gas = true;
             }};
 
             hellium = new Liquid("hellium", Color.valueOf("ffffff"))
             {{
-
+                gas = true;
             }};
 
             helliumThree = new Liquid("hellium-three", Color.valueOf("ffffff"))
             {{
-
+                gas = true;
             }};
 
             steam = new Liquid("steam", Color.valueOf("ffffff"))
             {{  
                 alwaysUnlocked = true;
                 gas = true;
-
             }};
 
         //fuels
@@ -121,13 +120,11 @@ public class AltanicLiquids
             naturalGas = new Liquid("natural-gas", Color.valueOf("ffffff"))
             {{  
                 gas = true;
-
             }};
 
             petroleumGas = new Liquid("petroleum-gas", Color.valueOf("ffffff"))
             {{  
                 gas = true;
-
             }};
 
             plantOil = new Liquid("plant-oil", Color.valueOf("ffffff"))
@@ -138,7 +135,6 @@ public class AltanicLiquids
             bioGas = new Liquid("biogas", Color.valueOf("ffffff"))
             {{
                 gas = true;
-
             }};
 
             biofuel = new Liquid("biofuel", Color.valueOf("ffffff"))
