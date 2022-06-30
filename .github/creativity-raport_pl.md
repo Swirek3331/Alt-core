@@ -41,4 +41,19 @@ Do rur (xd) pakujemy, potem do turbiny i wirniki się kręcą, kręcą, kręcą 
 ### Paliwa
 UUUUU węglowodory.
 #### Olej lekki
-Może podziele na benzynę i naftę i z tego paliwo przetworzone
+Może podziele na benzynę i naftę i z tego paliwo przetworzone. Taka jakby połączenie benzyny, nafty, diesla i siarki może?
+#### Olej ciężki
+Tylko do smaru i może koksu naftowego?
+#### Paliwo przetworzone
+Pozbawiony siarki olej lekki.
+#### Gaz naturalny
+Metan, etan. Możliwe że będzie ciekły.
+#### Gazol (Gaz naftowy/petrochemiczny
+Propan, buta, (twoja stara orangutan). Pozyskiwany z ropy jak inne oleje. Może ciekły?
+#### Plant oil
+Dobra, tu już są pochodne węglowodorów. To po prostu tłuszcz, najpewniej ester kwasy oleinowego.
+#### Biogaz
+To już metan ().
+#### Biopaliwo
+Pisałem przy alkocholach.
+### Chłodziwo
