@@ -1,4 +1,4 @@
-package altanic.content;
+/*package altanic.content;
 
 import arc.struct.Seq;
 import mindustry.content.*;
@@ -21,7 +21,7 @@ public class AltanicErekirTechTree
         if (objectives != null) node.objectives = objectives;TechNode prev = context;context = node;children.run();
         context = prev;
     }
-    /*private static void node (UnlockableContent content, ItemStack[] requirements, Seq <Objective> objectives)
+    private static void node (UnlockableContent content, ItemStack[] requirements, Seq <Objective> objectives)
     {
         node(content, requirements, objectives, () -> {});
     }
@@ -32,15 +32,15 @@ public class AltanicErekirTechTree
     private static void node (UnlockableContent content, ItemStack[] requirements)
     {
         node(content, requirements, Seq.with(), () -> {});
-    }*/
+    }
     private static void node (UnlockableContent content, ItemStack[] requirements, Runnable children)
     {
         node(content, requirements, null, children);
     }
-    //private static void node (UnlockableContent content, Seq <Objective> objectives, Runnable children)
-    //{
-    //    node(content, content.researchRequirements(), objectives, children);
-    //}
+    private static void node (UnlockableContent content, Seq <Objective> objectives, Runnable children)
+    {
+        node(content, content.researchRequirements(), objectives, children);
+    }
     private static void node (UnlockableContent content, Runnable children)
     {
         node(content, content.researchRequirements(), children);
@@ -49,7 +49,7 @@ public class AltanicErekirTechTree
     {
         node(block, () -> {});
     }
-    /*private static void nodeProduce (UnlockableContent content, Seq <Objective> objectives, Runnable children)
+    private static void nodeProduce (UnlockableContent content, Seq <Objective> objectives, Runnable children)
     {
         node(content, content.researchRequirements(), objectives.and(new Produce(content)), children);
     }
@@ -64,7 +64,7 @@ public class AltanicErekirTechTree
     private static void nodeProduce (UnlockableContent content)
     {
         nodeProduce(content, Seq.with(), () -> {});
-    }*/
+    }
 
     public static void load()
     {   
@@ -92,3 +92,4 @@ public class AltanicErekirTechTree
         //endregion
     }
 }
+*/
