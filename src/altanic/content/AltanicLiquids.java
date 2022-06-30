@@ -1,7 +1,7 @@
 package altanic.content;
 
 import arc.graphics.Color;
-import mindustry.content.Liquids;
+//import mindustry.content.Liquids;
 import mindustry.type.Liquid;
 
 public class AltanicLiquids
