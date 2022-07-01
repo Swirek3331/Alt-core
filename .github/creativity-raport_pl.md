@@ -30,6 +30,8 @@ Niestabilny i rzadki izotop wodoru. Nie wiem nawet jak będzie występował. Ewe
 Nie wiem.
 #### Hel-3
 Z pyłu księżycowego, zastępca trytu. Będzie na księżycu Amino (wodna planeta).
+#### Chlor
+Z soli do chlorowodoru.
 #### Para wudna
 Ooooooooo, moje ulebione, ahh, steampunk, rewolucja przemysłowa, te vibesy. Pozyskiwane na wiele sbosobów, znaczy przez ciepło: 
 ##### pośrednio
@@ -68,3 +70,57 @@ co tu pisać?
 #### Nitrogliceryna
 Też od Omnoma, robi bum. Z glicerolu i kwasu azotowego, proporcje 1 : 3.
 ## Przedmioty
+### Paliwa
+#### Koks wunglowy
+REWOLUCJA PRZEMYSŁOWA, tylko że stali nie będzię. Pozyskiwany w koksowni z wugnla i produkuje ten jakoby olej drzewny chyba kreozot.
+#### Koks naftowy
+Pozyskiwany z oleju ciężkiego. Bogaty w węgiel.
+### Minerały?
+Niemetale i związki podobne.
+#### Siarka
+Pozyskiwana na trzy sposoby, przetwarzanie oleju lekkiego, odsiarczania ropy lub gazu albo poprostu wykopane.
+#### Kwarc
+I tu się komplikuję, może go nie dodam chyba, że Erekir się zmieni. Kwarc to SiO2, dodawany jest atom węgla. SiO2 + C -> Si + CO2. Kwarc występuje w piasku i na Serpulu mamy dwa piaski (wiem), a na Erekirze tyle co krzemu, nosz. Ale okej na Erekirze nie będzię czystego kwarcu, a może?. Ale będzie pozyskiwany z piasku lub z rudy.
+#### Sól
+Z wody chyba lub z rudy czy ściany. Z tego się chlor pozyskuje ja wiem, że to chlorek sodu (NaCl) i dodawany jest kwas siarkowy (H2SO4 (W dupie masz kombinery)) i wychodzi Siarczan sodu (NaSO4) i chlor. Ale zracji tego, że chlorowodór jest "słabszym kwasen" w tym modzie to zrobiłem tak.
+### Metale
+Tego nie będzie. Komplikuje mi się wiele rzecz. Nie wiem jak to wyjaśnić, ale nie.
+### Związki
+Tak jest związek wybuchowy, związki (mieszaniny) czegoś co da status i piasek. Nazewnictwo autorstwa Legendarykamilu#1922
+#### Mrozik
+Zamraża.
+#### Smolacz
+Spowalnia.
+#### Związek topiący?
+Topi?
+#### Mokrzyk
+Mokry.
+### Organiczne
+#### Biomasa
+Tu jest wpakowana różna materia roślinna.
+#### Rzepak
+Taki żółty do oleju, pod domem mam jak ktoś nie widział to może pokaże.
+#### Kukurydza
+Taka żółta kolba czy wał, w takich wysokich okrągłych zielonych wałąch rośnie.
+#### Liść
+Obstawiam, że wiecie co to jest.
+#### Deska
+#### Burak cukrowy
+Taka duża rzepa, czerwone rośnie w ziemi i liście jak wiatrak. Cukier == glukoza z klukozy etanol więc jest dobrze.
+#### Trzcina cukrowa
+W Szczebrzeszynie chrząszcz brzmi w trzcinie. Podobnie jak burak cukier == glukoza.
+#### Drewno
+No to jest w mc to będą wszyscy wiedzieć.
+#### Trociny 
+Taki pył z drewnopodobnych.
+### Inne (promieniotwórcze)
+#### Ruda uranu
+Do wirówki tylko ciecz potrzebna.
+#### Uran-235
+Rozszczepialny izotop uranu.
+#### Uran-238
+Nie rozszczepialny uran.
+#### Pluton
+Samo z siebie paliwo do RTG.
+#### Paliwo MOX
+Pluton i uran i masz zajebiste paliwo jądrowe.

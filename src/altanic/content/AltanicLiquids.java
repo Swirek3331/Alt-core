@@ -14,7 +14,7 @@ public class AltanicLiquids
     sulfuricAcid, nitricAcid, hydrogenChloride, fattyAcid,
 
     //region gases
-    oxygen, deuterium, tritium, hellium, helliumThree, steam,
+    oxygen, deuterium, tritium, hellium, helliumThree, chlorine, steam,
 
     //region oils aka fuels
     lightOil, heavyOil, refinedFuel, naturalGas, petroleumGas, plantOil, biogas, biofuel,
@@ -90,6 +90,11 @@ public class AltanicLiquids
             }};
 
             helliumThree = new Liquid("hellium-three", Color.valueOf("ffffff"))
+            {{
+
+            }};
+
+            chlorine = new Liquid("chlorine", Color.valueOf("ffffff"))
             {{
 
             }};

@@ -10,7 +10,7 @@ public class AltanicItems
 
     //region fuels
 
-    coalCoke, petroleumCoke, compactedCoal, 
+    coalCoke, petroleumCoke,
 
     //region minerals
 
@@ -34,7 +34,7 @@ public class AltanicItems
 
     //organic
 
-    biomass, canola, corn, leaf, plank, sugarBeet, sugarCane, wood,
+    biomass, canola, corn, leaf, plank, sugarBeet, sugarCane, wood, sawdust,
 
     //region other
 
@@ -50,11 +50,6 @@ public class AltanicItems
             }};
 
             petroleumCoke = new Item("petroleum-coke", Color.valueOf("ffffff"))
-            {{
-
-            }};
-
-            compactedCoal = new Item("compacted-coal", Color.valueOf("ffffff"))
             {{
 
             }};
@@ -103,6 +98,53 @@ public class AltanicItems
         //region parts
 
         //region ammo
+
+        //region organic
+            
+            biomass = new Item("biomass", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+    
+            canola = new Item("canola", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+    
+            corn = new Item("corn", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+    
+            leaf = new Item("leaf", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+    
+            plank = new Item("plank", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+    
+            sugarBeet = new Item("sugar-beet", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+    
+            sugarCane = new Item("sugar-cane", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+    
+            wood = new Item("wood", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+
+            sawdust = new Item("sawdust", Color.valueOf("ffffff"))
+            {{
+    
+            }};
 
         //region other
 
