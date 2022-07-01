@@ -62,7 +62,7 @@ public class AltanicLiquids
 
             }};
 
-            fattyAcid = new Liquid("fatty-acids", Color.valueOf("0f0f00"))
+            fattyAcid = new Liquid("fatty-acid", Color.valueOf("0f0f00"))
             {{  
 
             }};
