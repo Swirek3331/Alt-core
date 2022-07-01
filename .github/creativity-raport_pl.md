@@ -69,6 +69,8 @@ Ewentualny zastępca azotu?
 co tu pisać?
 #### Nitrogliceryna
 Też od Omnoma, robi bum. Z glicerolu i kwasu azotowego, proporcje 1 : 3.
+#### Kreozot
+Olej (smoła) drzewna/y z suchej destylacji drewna i wungla.
 ## Przedmioty
 ### Paliwa
 #### Koks wunglowy

@@ -23,7 +23,7 @@ public class AltanicLiquids
     liquidNitrogen, liquidHelliumm,
 
     //region other
-    lava, nitroglycerin;
+    lava, nitroglycerin, creosoteOil;
 
     public static void load()
     {
@@ -167,6 +167,11 @@ public class AltanicLiquids
             }};
 
             nitroglycerin = new Liquid("nitroglycerin", Color.valueOf("ffffff"))
+            {{  
+
+            }};
+
+            creosoteOil = new Liquid("creosote-oil", Color.valueOf("ffffff"))
             {{  
 
             }};
