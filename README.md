@@ -1,4 +1,5 @@
 # Alt-core
+
 "Debile są niczym sezonowa grypa. Cały czas wracają i niemiłosiernie trują dupę"
 -Omnom aka Baron Cukierkowy.
 Obecnie jest aplha "reborn 001".
