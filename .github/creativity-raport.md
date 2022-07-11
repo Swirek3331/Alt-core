@@ -1,3 +1,0 @@
-# Altanic
-## Liquids (& gases)
-### methanol
