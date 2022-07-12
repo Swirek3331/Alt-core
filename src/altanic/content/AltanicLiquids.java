@@ -4,7 +4,7 @@ import arc.graphics.Color;
 //import mindustry.content.Liquids;
 import mindustry.type.Liquid;
 
-public class AltanicLiquids
+public class AltLibLiquids
 {
     public static Liquid
     //region alcochols

@@ -1,7 +1,7 @@
 displayName: "Alt-core"
 name: "Alt-lib"
 author: "Swirek3331"
-main: "altanic.Altanic"
+main: "altlib.AltLib"
 description: "Debile są niczym sezonowa grypa. Cały czas wracają i niemiłosiernie trują dupę"
 version: aplha reborn 001
 minGameVersion: 136

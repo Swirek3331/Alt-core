@@ -1,10 +1,10 @@
-package altanic.content;
+package altlib.content;
 
 import arc.graphics.Color;
 import mindustry.type.*;
 //import mindustry.content.Items;
 
-public class AltanicItems
+public class AltLibItems
 {
     public static Item
 

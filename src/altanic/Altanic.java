@@ -1,12 +1,12 @@
-package altanic;
+package altlib;
 
 import mindustry.mod.*;
 
-import altanic.content.*;
+import altlib.content.*;
 
-public class Altanic extends Mod
+public class AltLib extends Mod
 {
-    public Altanic()
+    public AltLib()
     {
 
     }
@@ -14,8 +14,8 @@ public class Altanic extends Mod
     @Override
     public void loadContent()
     {
-        AltanicItems.load();
-        AltanicLiquids.load();
+        AltLibItems.load();
+        AltLibLiquids.load();
         //AltanicErekirTechTree.load();
         //AltanicSerpuloTechTree.load();
     }
