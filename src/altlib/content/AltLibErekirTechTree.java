@@ -1,4 +1,5 @@
-/*package altanic.content;
+/*
+package altlib.content;
 
 import arc.struct.Seq;
 import mindustry.content.*;
