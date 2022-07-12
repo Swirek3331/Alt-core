@@ -1,4 +1,4 @@
-package altanic.content;
+package altlib.content;
 
 import arc.graphics.Color;
 //import mindustry.content.Liquids;
