@@ -14,7 +14,7 @@ public class AltLibItems
 
     //region minerals
 
-    sulfur, quartz, salt,
+    sulphur, quartz, salt, stone, //yes
 
     //region metals
 
@@ -34,9 +34,9 @@ public class AltLibItems
 
     //organic
 
-    biomass, canola, corn, leaf, plank, sugarBeet, sugarCane, wood, sawdust,
+    biomass, canola, corn, leaf, plank, sugarBeet, sugarCane, wood, sawdust, soil,
 
-    //region other
+    //region radioactive
 
     uraniumOre, fissileUranium, notFissileUranium, plutonium, moxFuel;
 
@@ -56,7 +56,7 @@ public class AltLibItems
 
         //region minerals
             
-            sulfur = new Item("sulfur", Color.valueOf("ffffff"))
+            sulphur = new Item("sulphur", Color.valueOf("ffffff"))
             {{
     
             }};
@@ -146,7 +146,12 @@ public class AltLibItems
     
             }};
 
-        //region other
+            soil = new Item("soil", Color.valueOf("ffffff"))
+            {{
+    
+            }};
+
+        //region radioactive
 
             uraniumOre = new Item("uranium-ore", Color.valueOf("ffffff"))
             {{
