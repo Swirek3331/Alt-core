@@ -34,7 +34,7 @@ public class AltLibItems
 
     //organic
 
-    biomass, canola, corn, leaf, plank, sugarBeet, sugarCane, wood, sawdust, soil,
+    biomass, plank, wood, sawdust, soil,
 
     //region radioactive
 
@@ -104,38 +104,7 @@ public class AltLibItems
             biomass = new Item("biomass", Color.valueOf("ffffff"))
             {{
     
-            }};
-    
-            canola = new Item("canola", Color.valueOf("ffffff"))
-            {{
-    
-            }};
-    
-            corn = new Item("corn", Color.valueOf("ffffff"))
-            {{
-    
-            }};
-    
-            leaf = new Item("leaf", Color.valueOf("ffffff"))
-            {{
-    
-            }};
-    
-            plank = new Item("plank", Color.valueOf("ffffff"))
-            {{
-    
-            }};
-    
-            sugarBeet = new Item("sugar-beet", Color.valueOf("ffffff"))
-            {{
-    
-            }};
-    
-            sugarCane = new Item("sugar-cane", Color.valueOf("ffffff"))
-            {{
-    
-            }};
-    
+            }};  
             wood = new Item("wood", Color.valueOf("ffffff"))
             {{
     
