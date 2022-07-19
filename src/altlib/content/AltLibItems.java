@@ -38,7 +38,7 @@ public class AltLibItems
 
     //region radioactive
 
-    uraniumOre, fissileUranium, notFissileUranium, plutonium, moxFuel;
+    uraniumOre, fissileUranium, notFissileUranium, plutonium, moxWaste, moxFuel;
 
     public static void load()
     {   
@@ -142,7 +142,12 @@ public class AltLibItems
 
             }};
 
-            moxFuel = new Item("MOX-fuel", Color.valueOf("ffffff"))
+            moxWaste = new Item("mox-waste", Color.valueOf("ffffff"))
+            {{
+
+            }};
+
+            moxFuel = new Item("mox-fuel", Color.valueOf("ffffff"))
             {{
 
             }};
