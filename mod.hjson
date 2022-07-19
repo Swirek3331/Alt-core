@@ -3,6 +3,6 @@ name: "Alt-lib"
 author: "Swirek3331"
 main: "altlib.AltLib"
 description: "Debile są niczym sezonowa grypa. Cały czas wracają i niemiłosiernie trują dupę"
-version: aplha reborn 001
+version: 0.1
 minGameVersion: 136
 java: true
