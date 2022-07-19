@@ -21,7 +21,6 @@ ext{
 
 //java 8 backwards compatibility flag
 allprojects{
-    repositories { maven { url 'https://jitpack.io' } }
     tasks.withType(JavaCompile){
         options.compilerArgs.addAll(['--release', '8'])
     }
