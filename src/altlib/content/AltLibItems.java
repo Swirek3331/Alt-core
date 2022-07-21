@@ -22,7 +22,7 @@ public class AltLibItems
 
     //region compounds
 
-    cryoCompound, oilCompound, meltyCompound, wettyCompound,
+    cryoCompound, tarryCompound, meltyCompound, wettyCompound,
 
     //region parts
 
@@ -34,7 +34,7 @@ public class AltLibItems
 
     //organic
 
-    biomass, plank, wood, sawdust, soil,
+    biomass, wood, soil,
 
     //region radioactive
 
@@ -80,7 +80,7 @@ public class AltLibItems
 
             }};
 
-            oilCompound = new Item("oil-compound", Color.valueOf("ffffff"))
+            tarryCompound = new Item("tarry-compound", Color.valueOf("ffffff"))
             {{
 
             }};
@@ -106,11 +106,6 @@ public class AltLibItems
     
             }};  
             wood = new Item("wood", Color.valueOf("ffffff"))
-            {{
-    
-            }};
-
-            sawdust = new Item("sawdust", Color.valueOf("ffffff"))
             {{
     
             }};
