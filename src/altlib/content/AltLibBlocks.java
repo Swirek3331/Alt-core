@@ -1,7 +1,14 @@
 package altlib.content;
 
+import mindustry.content.Fx;
+import mindustry.content.Items;
+import mindustry.type.Category;
 import mindustry.world.*;
 import mindustry.world.blocks.environment.*;
+import mindustry.world.blocks.production.GenericCrafter;
+import mindustry.world.consumers.*;
+
+import static mindustry.type.ItemStack.*;
 
 public class AltLibBlocks
 {
@@ -11,7 +18,11 @@ public class AltLibBlocks
 
         //ores
 
-        oreSulfur, oreQuartz, oreSalt;
+        oreSulfur, oreQuartz, oreSalt, oreUranium,
+
+        //wall ores
+
+        quartzWall,
 
     public static void load()
     {
@@ -33,5 +44,8 @@ public class AltLibBlocks
                 {{
                     oreDefault = true;
                 }};
+
+            // wall ores
+
     }
 }

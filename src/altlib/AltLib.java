@@ -16,6 +16,7 @@ public class AltLib extends Mod
     {
         AltLibItems.load();
         AltLibLiquids.load();
+        AltLibBlocks.load();
         //AltanicErekirTechTree.load();
         //AltanicSerpuloTechTree.load();
     }

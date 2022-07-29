@@ -14,7 +14,7 @@ public class AltLibItems
 
     //region minerals
 
-    sulphur, quartz, salt, stone, //yes
+    sulphur, quartz, salt,
 
     //region metals
 
